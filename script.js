@@ -8,8 +8,13 @@ const filterSearch = document.getElementById('input-search');
 const filters = ["", "", ""];
 const countProductsText = document.getElementById('count-products')
 
+if(!localStorage.getItem('theme'))
+{
+    localStorage.setItem('theme', 'light');
+}
+
 function showData() {
-    
+
 fetch('./data.json')
 .then(response => response.json())
 .then(data => {
