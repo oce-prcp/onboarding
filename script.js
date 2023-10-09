@@ -130,4 +130,4 @@ fetch('./data.json')
         countProductsText.innerText = parseInt(countProductsText.innerText) + 1
     });
 })
-
+}
