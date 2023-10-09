@@ -36,6 +36,15 @@ fetch('./data.json')
         });
     })
 
-const loginbtn = document.getElementById("btn-login").addEventListener("click", function() {
-    window.location.href = 'index.html';
-    });
+    // const buttonLogin = document.querySelector("btn-login");
+
+    // button.addEventListener("click", (event) => {
+    //     button.innerHTML = `Nombre de clics : ${event.detail}`;
+    // });
+
+
+
+    // let  redirectButton = document.getElementById("btn-login");
+    //     redirectButton.addEventListener("click", function() {
+    //     window.location.href = "../onboarding/index.html";
+    // });
