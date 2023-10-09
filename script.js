@@ -131,3 +131,61 @@ fetch('./data.json')
     });
 })
 
+}
+
+//filter price
+
+filterText.addEventListener('change', (e) => {
+    console.log(e.target.value);
+    list.innerHTML = "";
+    filters[0] = e.target.value;
+    showData();
+})
+
+filterPrice.addEventListener('change', (e) => {
+    console.log(e.target.value);
+    list.innerHTML = "";
+    filters[1] = e.target.value;
+    showData();
+})
+
+filterSearch.addEventListener('keyup', (e) => {
+    list.innerHTML = "";
+    filters[2] = e.target.value;
+    showData();
+})
+
+showData();
+
+// Light dark mode
+
+const toggleSwitch = document.getElementById('lightSwitch');
+
+function switchTheme(e) {
+    if(localStorage.getItem('theme') == 'light')
+    {
+        localStorage.setItem('theme', 'dark')
+        document.documentElement.setAttribute('data-bs-theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light')
+        document.documentElement.setAttribute('data-bs-theme', 'light');
+    }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+function loadTheme() {
+    const currentTheme = localStorage.getItem('theme');
+    if(currentTheme) {
+        document.documentElement.setAttribute('data-bs-theme', currentTheme);
+        if(currentTheme === 'dark') {
+            toggleSwitch.checked = true;
+        }
+    }
+}
+
+loadTheme();
+
+const loginbtn = document.getElementById("btn-login").addEventListener("click", function() {
+    window.location.href = 'index.html';
+});
