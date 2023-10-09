@@ -35,3 +35,7 @@ fetch('./data.json')
             list.appendChild(card)
         });
     })
+
+const loginbtn = document.getElementById("btn-login").addEventListener("click", function() {
+    window.location.href = 'index.html';
+    });
