@@ -6,12 +6,15 @@ const filterPrice = document.getElementById('filter-price');
 const filterText = document.getElementById('filter-text');
 const filterSearch = document.getElementById('input-search');
 const filters = ["", "", ""];
+const countProductsText = document.getElementById('count-products')
 
 function showData() {
     
 fetch('./data.json')
 .then(response => response.json())
 .then(data => {
+
+    countProductsText.innerText = 0;
 
     // filter data
     let filteredData = data[0];
@@ -124,6 +127,7 @@ fetch('./data.json')
         card.appendChild(cardHeader);
         card.appendChild(cardBody);
         list.appendChild(card)
+        countProductsText.innerText = parseInt(countProductsText.innerText) + 1
     });
 })
 
@@ -184,4 +188,4 @@ loadTheme();
 
 const loginbtn = document.getElementById("btn-login").addEventListener("click", function() {
     window.location.href = 'index.html';
-    });
+});
