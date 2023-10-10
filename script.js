@@ -1,14 +1,14 @@
 
 // Fetch data and print them in html page
+if(window.location.pathname == "/produit.html" ) {
+    const filterPrice = document.getElementById('filter-price');
+    const filterText = document.getElementById('filter-text');
+    const filterSearch = document.getElementById('input-search');
+    const list = document.getElementById('list');
+    const filters = ["", "", ""];
+    const countProductsText = document.getElementById('count-products')
 
-const list = document.getElementById('list');
-const filterPrice = document.getElementById('filter-price');
-const filterText = document.getElementById('filter-text');
-const filterSearch = document.getElementById('input-search');
-const filters = ["", "", ""];
-const countProductsText = document.getElementById('count-products')
-
-function showData() {
+    function showData() {
     
 fetch('./data.json')
 .then(response => response.json())
@@ -131,9 +131,3 @@ fetch('./data.json')
     });
 })
 }
-
-
-var redirectButton = document.getElementById("redirectBtn");
-    redirectButton.addEventListener("click", function() {
-    window.location.href = "../onboarding/index.html";
-});
