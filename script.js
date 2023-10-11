@@ -1,6 +1,5 @@
 
 // Fetch data and print them in html page
-if(window.location.pathname == "/produit.html" ) {
     const filterPrice = document.getElementById('filter-price');
     const filterText = document.getElementById('filter-text');
     const filterSearch = document.getElementById('input-search');
@@ -156,7 +155,7 @@ if(window.location.pathname == "/produit.html" ) {
         })
         
         showData();
-}
+
 
 
 // Light dark mode
