@@ -290,3 +290,8 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
+
+.container {
+  padding: 20px;
+  text-align: left;
+}
