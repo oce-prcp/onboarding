@@ -64,7 +64,7 @@
                 <p><?php echo $product['price'] ?> €</p>
                 <button class="btn btn-primary" onclick='alert("Ajout dans le panier")'>Ajouter au panier</button>
                 <hr/>
-                <p>Livraison avant le:</p>
+                <p>Livraison avant le: 29/10/2047</p>
               </div>
           </div>
           <div class="mt-4">

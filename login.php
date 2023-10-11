@@ -20,7 +20,7 @@
                 <div class="container">
                     <h1  class="txt-login-register">Login to access to<br />your account</h1>
                     <div class="login-form">
-                        <form action="./index.html">
+                        <form action="./request.php" method="POST">
                             <input type="email" placeholder="E-mail Address">
                             <input type="password" placeholder="Password">
 

@@ -182,14 +182,6 @@ if(fileName != "connexion.html")
 }
 
 
-if(fileName == "connexion.html") 
-{
-    let btnLogin = document.getElementById('redirectBtn');
-    btnLogin.addEventListener("click", function() {
-        window.location.href = 'index.html';
-    });
-
-}
 
 function loadTheme() {
     const currentTheme = localStorage.getItem('theme');
