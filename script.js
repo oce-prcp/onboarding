@@ -1,5 +1,9 @@
 
-// Fetch data and print them in html page
+let fileName = location.href.split("/").slice(-1); 
+const toggleSwitch = document.getElementById('lightSwitch');
+
+if(fileName == "produit.html") {
+    // Fetch data and print them in html page   
     const filterPrice = document.getElementById('filter-price');
     const filterText = document.getElementById('filter-text');
     const filterSearch = document.getElementById('input-search');
@@ -155,22 +159,36 @@
         })
         
         showData();
+}
+
 
 // Light dark mode
 
-
-function switchTheme(e) {
-    if(localStorage.getItem('theme') == 'light')
-    {
-        localStorage.setItem('theme', 'dark')
-        document.documentElement.setAttribute('data-bs-theme', 'dark');
-    } else {
-        localStorage.setItem('theme', 'light')
-        document.documentElement.setAttribute('data-bs-theme', 'light');
+if(fileName != "connexion.html")
+{
+    function switchTheme(e) {
+        if(localStorage.getItem('theme') == 'light')
+        {
+            localStorage.setItem('theme', 'dark')
+            document.documentElement.setAttribute('data-bs-theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light')
+            document.documentElement.setAttribute('data-bs-theme', 'light');
+        }
     }
+    
+    toggleSwitch.addEventListener('change', switchTheme, false);
 }
 
-toggleSwitch.addEventListener('change', switchTheme, false);
+
+if(fileName == "connexion.html") 
+{
+    let btnLogin = document.getElementById('redirectBtn');
+    btnLogin.addEventListener("click", function() {
+        window.location.href = 'index.html';
+    });
+
+}
 
 function loadTheme() {
     const currentTheme = localStorage.getItem('theme');
@@ -183,8 +201,3 @@ function loadTheme() {
 }
 
 loadTheme();
-
-const loginbtn = document.getElementById("btn-login").addEventListener("click", function() {
-    window.location.href = 'index.html';
-});
-
