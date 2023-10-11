@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="connexion.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire Connexions</title>
+    <title>Formulaire Inscription</title>
 </head>
 <body>
     <div class="parent clearfix">
@@ -18,11 +18,13 @@
             </div>
             <div class="login">
                 <div class="container">
-                    <h1  class="txt-login-register">Login to access to<br />your account</h1>
+                    <h1  class="txt-login-register">Sign-in to access to<br />your account</h1>
                     <div class="login-form">
-                        <form action="./index.html">
-                            <input type="email" placeholder="E-mail Address">
-                            <input type="password" placeholder="Password">
+                        <form action="./request.php" method="POST">
+                            <input name="username" type="username" placeholder="username">
+                            <input name="mail" type="email" placeholder="E-mail Address">
+                            <input type="hidden" name="action" value="inscription">
+                            <input name="password" type="password" placeholder="Password">
 
                             <div class="remember-form">
                                 <input type="checkbox">
@@ -32,7 +34,7 @@
                             <div class="forget-pass">
                                 <a href="#">Forgot Password ?</a>
                             </div>
-                            <button id="redirectBtn" type="submit">LOG-IN</button>
+                            <button type="submit">SIGN-IN</button>
                         </form>
                     </div>
                 </div>
