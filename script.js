@@ -132,6 +132,7 @@ fetch('./data.json')
 })
 }}
 
+
 function acceptPopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "none";
