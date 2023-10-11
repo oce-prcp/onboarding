@@ -310,3 +310,12 @@ ul {
             font-size: 16px;
             cursor: pointer;
         }
+
+.image-produit {
+    width: 500px !important;
+}
+
+.image-produit:hover {
+    transform: scale(1.07);
+    transition: ease-in-out 200ms ;
+}

@@ -116,9 +116,10 @@ if(fileName == "produit.html") {
                 buyButton.classList.add('btn-color-product-buy');
                 buyButton.innerText = "Acheter";
         
-                let detailsButton = document.createElement('button');
+                let detailsButton = document.createElement('a');
                 detailsButton.classList.add('btn');
                 detailsButton.classList.add('btn-secondary');
+                detailsButton.href = "produit.php?id="+element.id;
                 detailsButton.innerText = "Details";
         
                 buttonDiv.appendChild(buyButton);
