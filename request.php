@@ -43,39 +43,41 @@ if(isset($_POST['action'])) {
             
             break;
             
-        case "login": 
-            $password = $_POST['password'];
-            $email = $_POST['email'];
-                
-            // Vérifier si l'utilisateur existe dans la base de données
-            $sql = "SELECT * FROM user WHERE email = :mail";
-            $stmt = $connexion->prepare($sql);
-            $stmt->bindParam(':mail', $email);
-            $stmt->execute();
-            $result = $stmt->fetch(PDO::FETCH_ASSOC);
-            echo "Coucou 1";
-                
-            if($result && password_verify($password, $result['password'])) {
-             // Les informations de connexion sont valides, connecter l'utilisateur
-                connexion($result['email']);
-                echo "coucou 2";
-                 // Assurez-vous que $result['username'] contient le nom d'utilisateur correct
+            case "login": 
+                $password = $_POST['password'];
+                $email = $_POST['email'];
                     
-            // Rediriger vers la page d'accueil
-                header("Status: 301 Moved Permanently", false, 301);
-                echo "Coucou 3";
-                header("Location: index.html");
-                echo " Coucou4";
+                    // Vérifier si l'utilisateur existe dans la base de données
+                $sql = "SELECT * FROM user WHERE email = :mail";
+                $stmt = $connexion->prepare($sql);
+                $stmt->bindParam(':mail', $email);
+                $stmt->execute();
+                $result = $stmt->fetch(PDO::FETCH_ASSOC);
+                $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+                    
+                if(password_verify($hashedPassword,$result['password'])) {
+                    // Les informations de connexion sont valides, connecter l'utilisateur
+                    connexion($result['username']); // Assurez-vous que $result['username'] contient le nom d'utilisateur correct
+                        
+                    // Rediriger vers la page d'accueil
+                    header("Status: 301 Moved Permanently", false, 301);
+                    header("Location: index.html");
+                } else {
+                    // Les informations de connexion ne sont pas valides, afficher un message d'erreur
+                    echo "OUPS une erreur est survenue";
+                    //echo var_dump($result);
+                    // var_dump(password_verify($password, $result['password']));
+                    //echo $result['password'] . "<br/>";
+                    // echo "password_verify($hashedPassword , $result['password'])";
+                    echo password_verify($hashedPassword , $result['password']);
+                }
                 exit;
-            } else {
-             // Les informations de connexion ne sont pas valides, afficher un message d'erreur
-                echo "OUPS une erreur est survenue";
-                echo "Coucou 5";
+                break;
+                default:
+                echo "C'est FF la team";
+                break;
             }
-            break;
-        default:
-            echo "C'est FF la team";
-            break;
-        }
-}
-?>
+    }
+    ?>
+
+
