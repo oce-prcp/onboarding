@@ -54,7 +54,7 @@ if(isset($_POST['action'])) {
                 $result = $stmt->fetch(PDO::FETCH_ASSOC);
                 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
                     
-                if(password_verify($hashedPassword,$result['password'])) {
+                if(password_verify($password, $hashedPassword)) {
                     // Les informations de connexion sont valides, connecter l'utilisateur
                     connexion($result['username']); // Assurez-vous que $result['username'] contient le nom d'utilisateur correct
                         
