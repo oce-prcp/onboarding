@@ -41,11 +41,12 @@
                 <label class="form-check-label ms-3 text-white" for="lightSwitch">
                   Changer le thème
                 </label>
-                <input class="form-check-input" type="checkbox" id="lightSwitch" />
+                <input style="background-color: #2c8a8a;" class="form-check-input" type="checkbox" id="lightSwitch" />
               </div>
           </ul>
         </div>
       </nav>
+      <!-- Produit -->
     <div class="container pb-5">
         <?php
             $id = intval($_GET['id']);
@@ -63,8 +64,9 @@
                 <h1 class="name-prod"><?php echo $product['name'] ?></h1>
                 <p class="price-prod"><?php echo $product['price'] ?> €</p>
                 <button class="btn btn-primary" id="btn-add" onclick='alert("Ajout dans le panier")'>Ajouter au panier</button>
+                <button class="btn btn-primary" id="btn-supp" onclick='alert("Suppression du produit")'>Supprimer le produit</button>
                 <hr/>
-                <p>Livraison avant le: 29/10/2047</p>
+                <p>Livraison avant le : 29/10/2047</p>
               </div>
           </div>
           <div id="txt">
@@ -73,6 +75,7 @@
           </div>
         </div>
     </div>
+    <!-- Footer -->
     <div class="copyright-area">
         <div class="container">
             <div class="row">

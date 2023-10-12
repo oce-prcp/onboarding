@@ -40,6 +40,7 @@
           // parcourir le tableau
           foreach ($products[0] as $product) {
             // afficher les produits
+            
             echo "<tbody>";
             echo "<tr>";
             echo "<td>".$product['id']."</td>";
@@ -54,6 +55,7 @@
             echo "</tr>"; 
             echo "</tbody>";
           }
+
         ?>
         </table>
       </div>

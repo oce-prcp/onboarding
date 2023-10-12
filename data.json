@@ -1,69 +1,64 @@
-{
-    "0": [
-         {
-            "id":1,
-            "name": "Mon receuil de douceurs",
-            "imageurl": "https://static.fnac-static.com/multimedia/Images/FR/NR/3b/35/ef/15676731/1540-1/tsp20231007081137/Mon-recueil-de-douceurs.jpg",
+[
+    [
+        {
+            "id": 1,
+            "name": "Mon recueil de douceur",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/3b\/35\/ef\/15676731\/1540-1\/tsp20231007081137\/Mon-recueil-de-douceurs.jpg",
             "price": 33.99,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Retrouvez ses 70 recettes r\u00e9confortantes pr\u00e9f\u00e9r\u00e9es : cookies, cinnamon rolls, banana bread, muffins aux myrtilles, pancakes, iced latte... et partagez en sa compagnie un moment..."
         },
-    
-  
         {
-            "id":2,
-            "name":"Super Nickel",
-            "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/b0/ef/ee/15658928/1540-1/tsp20231004075140/Super-nickel.jpg",
+            "id": 2,
+            "name": "Super Nickel",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/b0\/ef\/ee\/15658928\/1540-1\/tsp20231004075140\/Super-nickel.jpg",
             "price": 9.99,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Qui n\u2019a pas entendu parler de Michel Dumas ? Avec son allure des ann\u00e9es 1970, et sa petite cuisine en carrelages bleus, ce chef est devenue une star du web gr\u00e2ce \u00e0 ses vid\u00e9os Youtube. Mais avant de se faire remarquer pour son allure et son humour, Michel Dumas cartonne pour ses recettes et la transmission de ses techniques culinaires. Le chef propose des recettes gourmandes et ultra fiables, tout autant une issues du patrimoine gastronomique fran\u00e7ais."
         },
-
         {
-            "id":3,
-            "name":"Je cuisine avec 3 ingrédients",
-            "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/35/35/ef/15676725/1540-1/tsp20231005073603/Je-cuisine-avec-3-ingredients-et-pour-3-fois-rien.jpg",
+            "id": 3,
+            "name": "Je cuisine avec 3 ingr\u00e9dients",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/35\/35\/ef\/15676725\/1540-1\/tsp20231005073603\/Je-cuisine-avec-3-ingredients-et-pour-3-fois-rien.jpg",
             "price": 23.99,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Toujours soucieux de proposer une cuisine authentique et accessible, Laurent Mariotte a imagin\u00e9 60 recettes \u00e0 pr\u00e9parer avec seulement 3 ingr\u00e9dients. Ou comment composer un panier de courses \u00e0 petit budget pour des repas vari\u00e9s, \u00e9quilibr\u00e9s et gourmands : asperges r\u00f4ties, gratin de courgette \u00e0 la grecque, ailes de poulet suce-doigts, boulettes de b\u0153uf au comt\u00e9, fiadone, fudge menthe-chocolat..."
         },
-
         {
-            "id":4,
-            "name":"Happy Hours",
-            "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/67/88/ee/15632487/1540-1/tsp20231005072526/Happy-Hours.jpg",
+            "id": 4,
+            "name": "Happy Hours",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/67\/88\/ee\/15632487\/1540-1\/tsp20231005072526\/Happy-Hours.jpg",
             "price": 13.99,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Happy hours, c\u2019est mon mode de vie, mes recettes de wannabe cuistot, qui prennent rarement plus de 15 min, mais permettent de se r\u00e9galer, mes s\u00e9ances de sport, mes shots pr\u00e9f\u00e9r\u00e9s, mes pens\u00e9es, mes restos favoris. Secouez le tout et \u00e7a devrait donner un joyeux m\u00e9lange."
         },
-
         {
             "id": 5,
-            "name":"Chef de Famille",
-            "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/94/88/ee/15632532/1540-1/tsp20230906075023/Chef-de-famille.jpg",
+            "name": "Chef de Famille",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/94\/88\/ee\/15632532\/1540-1\/tsp20230906075023\/Chef-de-famille.jpg",
             "price": 10.49,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-   
+            "description": "Norbert vous propose 120 recettes simples, gourmandes, cr\u00e9atives, pens\u00e9es pour \u00eatre r\u00e9alis\u00e9es par tous, le soir comme le week-end, avec le truc en plus d\u2019un v\u00e9ritable chef."
         },
-
         {
             "id": 6,
-            "name":"Cuisine d'Asie",
-            "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/32/19/ee/15604018/1540-1/tsp20230921080452/Cuisines-d-Asie.jpg",
+            "name": "Cuisine d'Asie",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/32\/19\/ee\/15604018\/1540-1\/tsp20230921080452\/Cuisines-d-Asie.jpg",
             "price": 49.98,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "100 recettes gourmandes et inratables par Cooking with Morgane. Une dizaine de pages d'explications sur la cuisine asiatique, les ustensiles, les ingr\u00e9dients de base. Puis les recettes: boeuf aux oignons, poulet du g\u00e9n\u00e9ral Tao, potage p\u00e9kinois, soupe de raviolis wonton, tom kha kai, travers de porc r\u00f4tis \u00e0 la citronnelleaubergines saut\u00e9es..."
         },
-
         {
-            "id":7,
-            "name":"Cook Book",
-            "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/dd/26/ec/15476445/1540-1/tsp20230921080124/Le-cook-book-de-Tiffany-Family.jpg",
+            "id": 7,
+            "name": "Cook Book",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/dd\/26\/ec\/15476445\/1540-1\/tsp20230921080124\/Le-cook-book-de-Tiffany-Family.jpg",
             "price": 19.99,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Les petits plats pr\u00e9f\u00e9r\u00e9s de mes minis ; tous mes conseils et astuces pour cuisiner tous les soirs sans \u00eatre de corv\u00e9e et s\u2019all\u00e9ger la t\u00eate ! On va ruser avec les l\u00e9gumes, r\u00e9duire le sucre, se simplifier au max les timings de pr\u00e9paration, faire d\u00e9couvrir (et appr\u00e9cier !) les fruits et l\u00e9gumes de saison aux plus petits (et aussi faire de sacr\u00e9es \u00e9conomies), cuisiner des choses \u00e0 l\u2019avance, retrouver du temps pour prendre son temps tous ensemble."
         },
-
         {
-        "id": 8,
-        "name":"Simple",
-        "imageurl":"https://static.fnac-static.com/multimedia/Images/FR/NR/63/7e/7d/8224355/1540-1/tsp20230720075134/Simple.jpg",
-        "price": 3.99,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-       }
-    ]
-}
+            "id": 8,
+            "name": "Simple",
+            "imageurl": "https:\/\/static.fnac-static.com\/multimedia\/Images\/FR\/NR\/63\/7e\/7d\/8224355\/1540-1\/tsp20230720075134\/Simple.jpg",
+            "price": 3.99,
+            "description": "Les nouvelles recettes de Yotam Ottolenghi toujours aussi d\u00e9licieuses et originales, mais \u00e0 la port\u00e9e de tous gr\u00e2ce \u00e0 6 principes tout simples rep\u00e9r\u00e9s par des pictogrammes."
+        }
+    ],
+    {
+        "nom": "Nouvel \u00e9l\u00e9ment",
+        "valeur": 42
+    }
+]

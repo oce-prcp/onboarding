@@ -6,6 +6,7 @@
 /* NAVBAR STYLE */
 .nav-link {
     color: #ffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav-item {
     margin-right: 20px;
@@ -252,7 +253,7 @@ ul {
   margin-bottom: 10px;
 }
 .popup-button {
-  background-color: #4CAF50;
+  background-color: #2c8a8a;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -264,8 +265,7 @@ ul {
 }
 
 
-/* mettre .description à droite de .image-produit */
-
+/* STYLE POUR LES PRODUITS */
 .image-produit {
     float: left;
     margin-right: 50px;
@@ -294,6 +294,17 @@ ul {
   border-color: #2c8a8a !important;    
 }
 #btn-add:hover {
+  scale: 1.1;
+  transition: ease-in-out 100ms;
+}
+#btn-supp {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  background-color: #2c8a8a !important;
+  color: #ffff !important;
+  border-color: #2c8a8a !important;    
+}
+#btn-supp:hover {
   scale: 1.1;
   transition: ease-in-out 100ms;
 }
