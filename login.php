@@ -21,9 +21,9 @@
                     <h1  class="txt-login-register">Login to access to<br />your account</h1>
                     <div class="login-form">
                         <form action="./request.php" method="POST">
-                            <input type="email" placeholder="E-mail Address">
-                            <input type="password" placeholder="Password">
-
+                            <input name="email" type="email" placeholder="E-mail Address">
+                            <input name="password" type="password" placeholder="Password">
+                            <input type="hidden" name="action" value="login">
                             <div class="remember-form">
                                 <input type="checkbox">
                             <span>Remember me</span>
@@ -32,7 +32,7 @@
                             <div class="forget-pass">
                                 <a href="#">Forgot Password ?</a>
                             </div>
-                            <button id="redirectBtn" type="submit">LOG-IN</button>
+                            <button type="submit">LOG-IN</button>
                         </form>
                     </div>
                 </div>
