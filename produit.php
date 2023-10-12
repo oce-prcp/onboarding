@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LearnCook</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -54,21 +54,21 @@
             $products = json_decode($data, true);
             $product = $products[0][$id-1];
         ?>
-        <div class="d-flex flex-row flex-wrap" style="margin-top: 6vw">
-          <div class="col-6">
+        <div style="margin-top: 6vw; margin-bottom: 6vw;">
+          <div>
             <img src="<?php echo $product['imageurl'] ?>" alt="produit" class="image-produit">
           </div>
-          <div class="col-6 d-flex flex-row align-items-center">
+          <div>
               <div>
-                <h1><?php echo $product['name'] ?></h1>
-                <p><?php echo $product['price'] ?> €</p>
-                <button class="btn btn-primary" onclick='alert("Ajout dans le panier")'>Ajouter au panier</button>
+                <h1 class="name-prod"><?php echo $product['name'] ?></h1>
+                <p class="price-prod"><?php echo $product['price'] ?> €</p>
+                <button class="btn btn-primary" id="btn-add" onclick='alert("Ajout dans le panier")'>Ajouter au panier</button>
                 <hr/>
                 <p>Livraison avant le: 29/10/2047</p>
               </div>
           </div>
-          <div class="mt-4">
-            <strong>Description du produit:</strong><br/>
+          <div id="txt">
+            <strong>Description du produit :</strong><br/>
             <?php echo $product['description'] ?>
           </div>
         </div>
