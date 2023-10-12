@@ -16,7 +16,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../onboarding/inscription.php">
           <img class="logo" src="./img/logo-cuisine.png">
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
