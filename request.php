@@ -40,7 +40,6 @@ if(isset($_POST['action'])) {
                 header("Location: index.html");
                 exit;
             }
-            
             break;
             
         case "login": 

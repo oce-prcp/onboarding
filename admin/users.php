@@ -47,7 +47,7 @@
         </div>
       </nav>
     <div class="container">
-        <!-- REALISER UNE REQUETE POUR RECUPERER TOUS LES UTILISATEURS  ET LES AFFICHER DANS UN TABLEAU HTML -->
+        <!-- REALISER UNE REQUETE POUR RECUPERER TOUS LES UTILISATEURS ET LES AFFICHER DANS UN TABLEAU HTML -->
         <!-- AJOUTER UN BOUTON D'AJOUT, SUPPRESSION ET MODIFICATION (Modification en dernier vu que c'est le plus relou) -->
    </div>
    <div class="copyright-area">
